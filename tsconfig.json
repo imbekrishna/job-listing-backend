@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true
+  },
+  "exclude": [
+    "tests",
+    "./node_modules/",
+    "./dist/"
+  ],
+}
