@@ -2,10 +2,10 @@
   "name": "express-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "tsc --build",
-    "start": "node --unhandled-rejections=strict app.js",
+    "start": "node app.js",
     "debug": "export DEBUG=* && tsc && node --unhandled-rejections=strict --inspect --watch ./dist/app.js",
     "test": "vitest",
     "test-debug": "export DEBUG=* && npm test"
